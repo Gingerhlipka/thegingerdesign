@@ -1,0 +1,59 @@
+h1{
+    border: 1px solid black;
+    text-align: center;
+    background-color: red;
+    color: yellow;
+    height:50px;
+    padding:20px;
+    font-family:'Times New Roman', Times, serif;
+    width: 100%;
+    position:relative;
+    z-index: 2;
+}
+body{
+    background-color: rgb(235, 102, 41);
+}
+
+section {
+    border: 3px solid red;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    position: relative;
+    top: 125px;
+    z-index: 1;}
+    .words{
+        font-size: large;
+        font-weight: Bold;
+        color: brown;
+        text-align: center;
+    }
+.EdSheeran{
+        background-image: url("https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cg_face%2Cq_auto:good%2Cw_300/MTM5ODkxNzYyODU1NDIwOTM4/ed-sheeran-gettyimages-494227430_1600jpg.jpg");
+        background-size: 200px 200px; 
+        position: absolute;
+        top: 40%;
+        bottom: 10px; ;
+        left: 85%;
+
+}
+.MadelainePetsch{
+    background-image: url("https://media.allure.com/photos/5dcb097f9ba0420009d0c614/1:1/w_1999,h_2000,c_limit/madelaine-petsch-interview.jpg");
+    background-size: 200px 200px;
+    position: absolute;
+    top: 20%; 
+    left: 70%;
+}
+.SadieSink{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/94/Sadie_Sink_%2843914734441%29.jpg");
+    background-size: 200px 200px;
+    position: absolute;
+    top: 40%; 
+    left: 55%;
+}
+form{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:medium;
+    color: rgb(126, 31, 2);
+    background-color: rgb(224, 135, 75);
+}
